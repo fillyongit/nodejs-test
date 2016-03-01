@@ -1,0 +1,90 @@
+[2016-03-01 15:41:10.999] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:856:11)
+    at exports._exceptionWithHostPort (util.js:879:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[2016-03-01 15:56:25.996] [INFO] [default] - SIGINT ricevuto. Processo interrotto.
+[2016-03-01 15:56:30.830] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:856:11)
+    at exports._exceptionWithHostPort (util.js:879:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[2016-03-01 15:57:30.501] [INFO] [default] - SIGINT ricevuto. Processo interrotto.
+[2016-03-01 15:58:26.890] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:856:11)
+    at exports._exceptionWithHostPort (util.js:879:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[2016-03-01 16:01:28.660] [INFO] [default] - SIGINT ricevuto. Processo interrotto.
+[2016-03-01 16:27:43.583] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:856:11)
+    at exports._exceptionWithHostPort (util.js:879:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:413:34)
+    at Object.Module._extensions..js (module.js:422:10)
+    at Module.load (module.js:357:32)
+    at Function.Module._load (module.js:314:12)
+[2016-03-01 16:27:50.685] [INFO] [default] - SIGINT ricevuto. Processo interrotto.
+[2016-03-01 17:37:58.264] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+[2016-03-01 17:38:23.949] [INFO] [default] - SIGINT ricevuto. Processo interrotto.

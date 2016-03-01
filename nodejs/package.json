@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "bl": "^1.0.0",
+    "httpdispatcher": "^0.4.0",
+    "log4js": "^0.6.32",
+    "mysql": "^2.6.1",
+    "socket.io": "^1.4.5",
+    "underscore": "^1.8.3",
+    "websocket": "^1.0.18",
+    "ws": "^0.7.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

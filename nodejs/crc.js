@@ -57,8 +57,8 @@ for (var i = 0; i < int16View.length; i++) {
 	  console.log("Entry " + int16View[i]);
 	  sum += int16View[i];
 	  console.log("Sum " + sum);
-	  console.log(sum & 0xFFFFF000);
-	  if (sum & 0xFFFFF000) {
+	  console.log(sum & 0xFFF8000);
+	  if (sum & 0xFFFF8000) {
 		  console.log("Overflow!");
 	  }
 }

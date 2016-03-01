@@ -49,7 +49,7 @@ var int16View = new Int16Array(buffer);
 // Essendo il buffer di 8 byte e la DataView è Int16Array
 // devo riempire 4 elementi da 16 bit ciascuno (8/2=4).
 int16View[0] = 0b0000000000000001;
-int16View[1] = 0b0111111111111111;
+int16View[1] = 0b0111111111111111; // 32767 L'ultimo numero intero positivo rappresentabile con 16bit in complemento a 2. +2^(N-1)-1
 int16View[2] = 0b0000000000000011;
 int16View[3] = 0b1111111111111011; // -5 in complemento a 2, perchè Int16Array (come le altre view) memorizza gli interi in complemento a 2.
 var sum = 0;
@@ -57,7 +57,13 @@ for (var i = 0; i < int16View.length; i++) {
 	  console.log("Entry " + int16View[i]);
 	  sum += int16View[i];
 	  console.log("Sum " + sum);
-	  console.log(sum & 0xFFF8000);
+	  // Per intercettare l'overflow si verifica se la sum è un numero rappresentabile con 
+	  // più di 15 bit (> 3767). Per fare questo basta un banale bit masking dei meno significativi
+	  // 15 bit. Se l''operazione restituisce il numero contenuto in sum allora vuol dire
+	  // che c'è stato l'overflow altrimento deve restituire 0 (i 15 bit meno significativi sono 0)
+	  // FFF8000 in binario è 1111 1111 1111 1111 1000 0000 0000 0000
+	  //					  F	   F	F    F	  8	   0	0	 0
+	  //console.log(sum & 0xFFFF8000);
 	  if (sum & 0xFFFF8000) {
 		  console.log("Overflow!");
 	  }

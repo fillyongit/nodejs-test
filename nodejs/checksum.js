@@ -42,7 +42,7 @@ for(var b of hdr1) {
 	console.log("Entry " + b);
 }
 
-console.log(" ------------------------- ");
+console.log(" ------------  CHECKSUM ------------- ");
 
 var buffer = new ArrayBuffer(8);
 var int16View = new Int16Array(buffer);
@@ -58,7 +58,7 @@ for (var i = 0; i < int16View.length; i++) {
 	  sum += int16View[i];
 	  console.log("Sum " + sum);
 	  // Per intercettare l'overflow si verifica se la sum è un numero rappresentabile con 
-	  // più di 15 bit (> 3767). Per fare questo basta un banale bit masking dei meno significativi
+	  // più di 15 bit (> 32767). Per fare questo basta un banale bit masking dei meno significativi
 	  // 15 bit. Se l''operazione restituisce il numero contenuto in sum allora vuol dire
 	  // che c'è stato l'overflow altrimento deve restituire 0 (i 15 bit meno significativi sono 0)
 	  // FFF8000 in binario è 1111 1111 1111 1111 1000 0000 0000 0000
@@ -66,5 +66,10 @@ for (var i = 0; i < int16View.length; i++) {
 	  //console.log(sum & 0xFFFF8000);
 	  if (sum & 0xFFFF8000) {
 		  console.log("Overflow!");
+		  sum &= 0x7FFF;
+		  break;
 	  }
 }
+
+//sum &= 0x7FFF;
+console.log(sum);

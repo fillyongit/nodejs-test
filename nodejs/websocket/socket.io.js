@@ -109,13 +109,14 @@ server.on('error', function (e) {
 	  }
 });
 
-app.listen(process.argv[2]);
+//app.listen(process.argv[2]);
+app.listen("8080");
 
 // Canali.
-// Canale per eventi.
-var evento = io.of('/evento');
-evento.on('connection', function (s) {
-	logger.info('Nuova connessione WebSocket namespace evento');
+// Canale per news.
+var news = io.of('/news');
+news.on('connection', function (s) {
+	logger.info('Nuova connessione WebSocket namespace news');
 });
 //Canale per registrazioni.
 var registrazione = io.of('/registrazione');

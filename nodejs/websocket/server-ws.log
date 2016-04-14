@@ -88,3 +88,109 @@ Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
     at Module.load (module.js:343:32)
     at Function.Module._load (module.js:300:12)
 [2016-03-01 17:38:23.949] [INFO] [default] - SIGINT ricevuto. Processo interrotto.
+[2016-04-12 17:42:55.679] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+[2016-04-12 17:51:01.720] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+[2016-04-12 17:51:18.492] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-12 17:57:05.616] [INFO] [default] - SIGINT ricevuto. Processo interrotto.
+[2016-04-12 17:57:24.963] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+[2016-04-12 17:57:49.264] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-12 17:58:18.276] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-12 18:00:20.832] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+[2016-04-12 18:00:23.419] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-12 18:00:25.083] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-12 18:00:49.495] [INFO] [default] - SIGINT ricevuto. Processo interrotto.
+[2016-04-12 18:00:56.584] [ERROR] [default] - { [Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock]
+  code: 'EACCES',
+  errno: 'EACCES',
+  syscall: 'listen',
+  address: 'C:\\Users\\Alessio\\AppData\\Local\\Temp/bac.sock',
+  port: -1 }
+Error: listen EACCES C:\Users\Alessio\AppData\Local\Temp/bac.sock
+    at Object.exports._errnoException (util.js:870:11)
+    at exports._exceptionWithHostPort (util.js:893:20)
+    at Server._listen2 (net.js:1223:19)
+    at listen (net.js:1272:10)
+    at Server.listen (net.js:1362:5)
+    at Object.<anonymous> (C:\Users\Alessio\Lavoro\nodejs\nodejs-test\nodejs\websocket\socket.io.js:97:8)
+    at Module._compile (module.js:409:26)
+    at Object.Module._extensions..js (module.js:416:10)
+    at Module.load (module.js:343:32)
+    at Function.Module._load (module.js:300:12)
+[2016-04-12 18:00:57.312] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 09:04:22.391] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 09:45:11.629] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 09:45:35.393] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 09:47:06.705] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 09:47:38.379] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 09:57:27.181] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 09:57:30.919] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 09:59:30.764] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 10:11:30.030] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 10:11:43.819] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-13 10:37:30.429] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-14 09:08:46.827] [INFO] [default] - Nuova connessione WebSocket namespace news
+[2016-04-14 12:27:06.312] [INFO] [default] - SIGINT ricevuto. Processo interrotto.

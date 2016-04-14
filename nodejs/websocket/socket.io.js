@@ -115,16 +115,20 @@ app.listen("8080");
 // Canali.
 // Canale per news.
 var news = io.of('/news');
-news.on('connection', function (s) {
+news.on('connection', function (socket) {
 	logger.info('Nuova connessione WebSocket namespace news');
+	news.emit('data', {title: 'Titolo'});
+	socket.on('disconnect', function(){
+	   console.log('user disconnected');
+	});
 });
 //Canale per registrazioni.
 var registrazione = io.of('/registrazione');
-registrazione.on('connection', function (s) {
+registrazione.on('connection', function (socket) {
 	logger.info('Nuova connessione WebSocket namespace registrazione');
 });
 //Canale per anomalie.
 var anomalia = io.of('/anomalia');
-anomalia.on('connection', function (s) {
+anomalia.on('connection', function (socket) {
 	logger.info('Nuova connessione WebSocket namespace anomalia');
 });

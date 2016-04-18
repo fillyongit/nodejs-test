@@ -1,4 +1,4 @@
-// Phantomjs non è altro che un package node che usa le api javascript messe esposte dall'applicazione
+// Phantomjs non è altro che un package node che usa le api javascript esposte dall'applicazione
 // phantom che phantomjs ha piazzato sotto node_modules/phnatomjs/lib/phantom/phantom.exe
 // Infatti l'oggetto child_process non fa altro che eseguire phantom passandogli lo script js come argomento.
 // E' lo script passato come argomento che usa veramente le api di phantom.

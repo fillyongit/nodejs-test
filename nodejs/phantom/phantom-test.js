@@ -13,9 +13,10 @@ var binPath = phantomjs.path
 
 console.log(binPath);
 
+// RUN RESPONSIVE SCREENSHOT. FA UNO SCREENSHOT DEL SITO DI JANUS.
 var childArgs = [
       path.join(__dirname, 'responsive-screenshot.js'),
-      'http://www.janus.it' //  argomnento
+      'http://www.janus.it' //  argomento
 ]
     
 childProcess.execFile(binPath, childArgs, function(err, stdout, stderr) {
